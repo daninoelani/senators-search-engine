@@ -39,7 +39,7 @@ export default () => {
       }} />
       <ul>
         {searched.map((senator, index) => (
-          <li key={index}>{senator.person.lastname} | {senator.party}</li>
+          <li key={index}>{senator.person.firstname + ' ' + senator.person.lastname} | {senator.party}</li>
         ))}
       </ul>
     </div>
