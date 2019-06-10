@@ -4,10 +4,6 @@ import './App.css';
 import Home from './components/Home';
 import Search from './components/Search'
 
-// const getEarthquakes = async () => {
-//   const results = await fetch(URI).then(res => res.json())
-//   console.log(results)
-// }
 
 function App() {
   return (
